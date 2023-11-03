@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'categories.dart';
+import 'route_handler.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key, required this.title});
@@ -25,7 +26,8 @@ class _HomePageState extends State<HomePage> {
             child: ListTile(
               title: Text(categories_en[index]),
               onTap: () {
-                Navigator.of(context).pushNamed("a");
+                Navigator.of(context)
+                    .pushNamed(Routes.showCategory, arguments: index);
               },
             ),
           );

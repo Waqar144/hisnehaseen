@@ -38,7 +38,8 @@ class TextWidget extends StatelessWidget {
 }
 
 class DetailsView extends StatefulWidget {
-  const DetailsView({super.key});
+  final int categoryIndex;
+  const DetailsView(this.categoryIndex, {super.key});
 
   @override
   State<DetailsView> createState() => _DetailsViewState();
@@ -53,7 +54,8 @@ class _DetailsViewState extends State<DetailsView> {
   }
 
   Future<List<String>> _load() async {
-    final text = await rootBundle.loadString("assets/en/0.txt");
+    final text =
+        await rootBundle.loadString("assets/en/${widget.categoryIndex}.txt");
     textLines = text.split('---').map((s) => s.trim()).toList();
     return textLines;
   }
