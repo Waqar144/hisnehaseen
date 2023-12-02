@@ -10,10 +10,35 @@ class TextWidget extends StatelessWidget {
     List<String> lines = text.split('\n');
     TextDirection dir = TextDirection.ltr;
     List<Widget> children = [];
+
+    String firstLine = lines.first;
+    int s = firstLine.indexOf(':');
+    String num = "";
+    if (s != -1) num = firstLine.substring(0, s);
+
+    if (int.tryParse(num) != null) {
+      final first = Text.rich(
+        TextSpan(children: [
+          WidgetSpan(
+            child: CircleAvatar(
+              radius: 16,
+              child: Text(num),
+            ),
+            alignment: PlaceholderAlignment.baseline,
+            baseline: TextBaseline.alphabetic,
+          ),
+          TextSpan(text: firstLine.substring(s + 1)),
+        ]),
+      );
+      children.add(first);
+      lines.removeAt(0);
+    }
+
     for (final line in lines) {
       if (line.startsWith('ar:')) {
         children.add(Text(
           line.substring(3),
+          textAlign: TextAlign.start,
           textDirection: TextDirection.rtl,
           style: const TextStyle(
             fontFamily: "IndoPak",
@@ -31,7 +56,7 @@ class TextWidget extends StatelessWidget {
     }
 
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.stretch,
       children: children,
     );
   }
@@ -46,7 +71,7 @@ class DetailsView extends StatefulWidget {
 }
 
 class _DetailsViewState extends State<DetailsView> {
-  late final List<String> textLines;
+  late List<String> textLines;
 
   @override
   void initState() {
@@ -77,6 +102,7 @@ class _DetailsViewState extends State<DetailsView> {
             return Center(child: Text("Error: ${snapshot.error}"));
           }
           return ListView.builder(
+            key: const PageStorageKey<String>('mylisview'),
             itemCount: textLines.length,
             itemBuilder: (ctx, index) {
               return Card(
