@@ -13,4 +13,13 @@ const List<String> categories_en = [
   /* 10 */ 'Some More Forms Of Zikr',
   /* 11 */ 'When Supplication Is Granted',
   /* 12 */ 'Supplication For Morning And Evening',
+  /* 13 */ 'Evening Only',
+  /* 14 */ 'Morning Only',
+  /* 15 */ 'When the Sun Rises',
+  /* 16 */ 'Supplication for Day time',
+  /* 17 */ 'When Adhan for Magrib is called',
+  /* 18 */ 'Supplication for Night time',
+  /* 19 */ 'Supplication for Day or Night',
+  /* 20 */ 'Supplication On Entering Home',
+  /* 21 */ 'When Darkness Of Night Spreads',
 ];

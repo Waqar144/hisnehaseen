@@ -78,7 +78,9 @@ flutter:
   fonts:
     - family: IndoPak
       fonts:
-        - asset: assets/PDMS_SALEEM_QURANFONTQESHIP_0.ttf
+        # - asset: assets/PDMS_SALEEM_QURANFONTQESHIP_0.ttf
+        - asset: assets/me_quran.ttf
+        # - asset: assets/PDMS_ISLAMICFONT.ttf
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
