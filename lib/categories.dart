@@ -22,4 +22,5 @@ const List<String> categories_en = [
   /* 19 */ 'Supplication for Day or Night',
   /* 20 */ 'Supplication On Entering Home',
   /* 21 */ 'When Darkness Of Night Spreads',
+  /* 22 */ 'When Going to Sleep',
 ];
