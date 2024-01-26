@@ -139,10 +139,15 @@ class _DetailsViewState extends State<DetailsView> {
     return textLines;
   }
 
+  String _categoryTitle() {
+    return categories_en[widget.categoryIndex];
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        title: Text(_categoryTitle()),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         shadowColor: Theme.of(context).colorScheme.shadow,
       ),
