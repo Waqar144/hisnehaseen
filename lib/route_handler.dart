@@ -10,7 +10,7 @@ class Routes {
 
 Widget handleChapter(int index) {
   if (index == 9) {
-    return AsmaulHusna();
+    return const AsmaulHusna();
   }
   return DetailsView(index);
 }
