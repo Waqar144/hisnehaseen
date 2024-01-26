@@ -4,7 +4,7 @@ ar: بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ ا
 
 "In the name of Allah when whose name is mentioned nothing in earth or heaven can cause harm. And He is the Hearer, the Knower."
 
-(The four books, Ibn Hibban, Haakim, Ibn Abu Shaybah, narrated by Aban Ibn Uthman)
+ref:(The four books, Ibn Hibban, Haakim, Ibn Abu Shaybah, narrated by Aban Ibn Uthman)
 ---
 2: Tabarani has reported in Mu'jam Awsat that these words should be recited three times in the morning and evening. In another version in Awsat and in Muslim, Darami, Ibn as-Suni only evening is mentioned. Tirmidhi, Darami and Ibn Sunni have mentioned that it should be recited thrice.
 
@@ -45,12 +45,12 @@ ar: أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّه�
 ---
 8: Make this supplication both times(morning/evening):
 ar: اَللَّهمَّ إنِّي أعُوذُ بِكَ مِنَ الْكَسَلِ وَالْهَرَمِ ، وَسُوْءِ الْكِبَرِ وَفِتْنَةِ الدُّنِيَا وَعَذَابِ الْقَبْرِ
-("O Allah, I seek refuge in you from sloth, weakness of old age and evil of old age, from the mischief of the world and from the punishment in the grave.")
+"O Allah, I seek refuge in you from sloth, weakness of old age and evil of old age, from the mischief of the world and from the punishment in the grave."
 ---
 9: And
 ar: أَصْبَحْنا وَأَصْبَـحَْ المُـلكُ لِلهِ رَبِّ الْعَالَمِين اَللَّهمَّ إنِّي أسألُكَ خَيرَ هذا الْيَومِ فَتْحَهُ وَنَصْرَهُ ونُوْرَهُ وَبَرَكَتَهُ وَهُدَاهُ وَأعُوذُ بِكَ مِن شَرِّ مَا فِيْهِ وَشَرِّ مَا بَعْدَهُ
 ("We and the entire dominion have entered the morning for Allah who is the Lord of the worlds. I ask you for the good this day contains, for conquest, help, light, blessing and guidance. And I seek refuge in you from the evil it contains and the evil that is after it.")
-(Abu Dawood as narrated by Abu Maalik)
+ref:(Abu Dawood as narrated by Abu Maalik)
 
 In the evening, make the supplication in these words:
 
@@ -60,7 +60,7 @@ ar: أَمْسَيْنا وَأَمْسَى الْمُلْكُ لِلّهِ رَ
 10:
 ar: اَللَّهُمَّ بِكَ أَصْبَحْنَا وَبِكَ أَمْسَيْنَا وَبِكَ نَحْيَا وَبِكَ نَمُوْتُ وَاِلَيْكَ الْمَصِيْرُ
 ("O Allah, it is with your help that we come upon the morning and with your help we reach the evening. It is with your help that we live and with your help do we die. And to you is our return.")
-(The four books, Ibn Hibban, Abu Awanah, as narrated by Abu Hurayrah.)
+ref:(The four books, Ibn Hibban, Abu Awanah, as narrated by Abu Hurayrah.)
 ---
 11:
 ar: أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لاَ شَرِيْكَ لَهُ، لاَ إِلَـهَ إِلاَّ هُوَ وَاليْهِ النُّشُوْر
@@ -74,7 +74,7 @@ ar: اللَّهُمَّ فَاطِرَ السَّمَوَاتِ وَالْأَ�
 
 "O Allah, Originator of the heavens and earth, knower of the unseen and the seen, Lord of all things, and their owner, I testify that there is no God except you. I seek refuge in you from the mischief of my soul and from the mischief of the devil and from his trap (or polytheism), lest we commit evil on our souls or accuse a Muslim (or lead him to it)."
 
-(Abu Dawood, Tirmidhi, Nasa‘i, Ibn Hibban, Haakim, Ibn Abu Shaybah as narrated by Abu Maalik)
+ref:(Abu Dawood, Tirmidhi, Nasa‘i, Ibn Hibban, Haakim, Ibn Abu Shaybah as narrated by Abu Maalik)
 ---
 13: Make this supplication both times:
 ar: اللَّهُمَّ إِنِّيْ أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ وَمَلَائِكَتَكَ وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ، لَا إِلَهَ إِلَّا أَنْتَ، وَحْدَكَ لَا شَرِيكَ لَكَ، وَأَنَّ مُحَمَّدًا عَبْدُكَ وَرَسُولُكَ
@@ -90,15 +90,16 @@ Make this supplication four times.
 ar: اللَّهُمَّ اِنِّيْ اَسْاَلُكَ الْعَافِيَةَ فِي الدُّنْيَا وَ الْآخِرَةِ، اللَّهُمَّ اِنِّيْ اَسْاَلُكَ الْعَفْوَ وَ الْعَافِيَةَ فِيْ دِيْنِيْ وَ دُنْيَايَ وَاَهْلِيْ وَ مَالِيْ، اللَّهُمَّ اسْتُرْعَوْرَاتِيْ وَ آمِنْ رَوْعَاتِيْ، اللَّهُمَّ احْفَظْنِيْ مِنْ بَيْنِ يَدَيَّ وَ مِنْ خَلْفِيْ وَ عَنْ يَّمِيْنِيْ وَ عَنْ شِمَالِيْ وَ مِنْ فَوْقِيْ وَ اَعُوْذُ بِعَظَمَتِكَ اَنْ اُغْتَالَ مِنْ تَحْتِيْ۔
 
 "O Allah, I ask you for security in this world and the next. O Allah, I ask you for forgiveness and safety in my religion and my worldly affairs, on my family and on my property. O Allah! Conceal my faults and keep me safe from my apprehensions. O Allah, guard me from my front, from behind me, from my right and from my left and from above me, and I seek protection of your greatness from unexpectedly being harmed from below me."
-(Abu Dawood, Ibn Majah, Nasa'i, Ibn Hibban, Haakim, Ibn Abu Shaybah as narrated by Ibn Umar)
+ref:(Abu Dawood, Ibn Majah, Nasa'i, Ibn Hibban, Haakim, Ibn Abu Shaybah as narrated by Ibn Umar)
 ---
 15:
 ar:  لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِي وَيُمِيتُ وَهُوَ حَيٌّ لَا يَمُوتُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ
 
-There is no God but Allah, the Alone, He has no partner. To Him belongs the dominion and to Him belongs praise. He alone gives life and He gives death. And, He is Ever-living and will never die. And He is All-powerful.
-(Abu Dawood, Nasa‘i, Ibn Majah, Ibn Abu Shaybah, Ibn Sunni, as narrated by Abu Ayyash.)
+There is no God but Allah, the Alone, He has no partner. To Him belongs the dominion and to Him belongs praise. He alone gives life and He gives death. And, He is Ever-living and will never die. And He is All-powerful.[1]
+ref:(1. Abu Dawood, Nasa‘i, Ibn Majah, Ibn Abu Shaybah, Ibn Sunni, as narrated by Abu Ayyash.)
 
-According to the Hadith, if anyone recites this expression in the morning then he will get a reward for setting free one slave who is descendant of Prophet ﷺ Isma'il ten pious deeds will be created to him and ten sins will be forgiven to him and he will be raised ten ranks and he will be safe from the devil till evening. The same reward awaits him if he recites the words in the evening and he will be safe from the devil till morning. (Abu Dawood)
+According to the Hadith, if anyone recites this expression in the morning then he will get a reward for setting free one slave who is descendant of Prophet ﷺ Isma'il ten pious deeds will be created to him and ten sins will be forgiven to him and he will be raised ten ranks and he will be safe from the devil till evening. The same reward awaits him if he recites the words in the evening and he will be safe from the devil till morning.[2]
+ref:(2. Abu Dawood)
 ---
 16:
 ar: رَضِينَا بِاللَّهِ رَبًّا وَبِالْإِسْلَامِ دِينًا وَبِمُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ نَبِيًّا
@@ -112,10 +113,11 @@ Sayyidina Abu Sallam reported that the Prophet ﷺ said, "If anyone recites this
 
 ar: اللَّهُمَّ مَا أَصْبَحَ بِي مِنْ نِعْمَةٍ فَمِنْكَ وَحْدَكَ لَا شَرِيكَ لَكَ فَلَكَ الْحَمْدُ وَلَكَ الشُّكْرُ
 
-O Allah! Whatsoever favour I or anyone of your creation may find this morning, it will be from you alone. You have no partner. So, all praise and thanks belong to you.
-(Abu Dawood, Nasa'i, Ibn Sunni as narrated by Abdullah Ibn Ghannam.)
+O Allah! Whatsoever favour I or anyone of your creation may find this morning, it will be from you alone. You have no partner. So, all praise and thanks belong to you.[1]
+ref:(1. Abu Dawood, Nasa'i, Ibn Sunni as narrated by Abdullah Ibn Ghannam.)
 
-Whoever says this in the morning gives gratitude for the day's favours. And whoever says in the evening gives gratitude for the favours of the night. (Abu Dawood)
+Whoever says this in the morning gives gratitude for the day's favours. And whoever says in the evening gives gratitude for the favours of the night.[2]
+ref:(2. Abu Dawood)
 ---
 18: Make this supplication three times morning and evening.
 
@@ -128,21 +130,21 @@ and also say three times:
 ar: اللَّهُمَّ اِنِّيْ اَعُوْذُ بِكَ مِنَ الْكُفْرِ وَ الْفَقْرِ، اللَّهُمَّ اِنِّيْ اَعُوْذُبِكَ مِنْ عَذَابِ الْقَبْرِ، لَا اِلٰهَ اِلاَّ اَنْتَ
 
 "O Allah, I seek refuge in you from disbelief and poverty. O Allah! I seek your protection from the punishment in the grave. There is no God but you."
-(Abu Dawood, Nasa'i, Ibn Sunni, as narrated by Abu Bakrah.)
+ref:(Abu Dawood, Nasa'i, Ibn Sunni, as narrated by Abu Bakrah.)
 ---
 19:
 ar: سُبْحَانَ اللَّهِ وَبِحَمْدِهِ وَلَا قُوَّةَ إِلَّا بِاللَّهِ مَا شَاءَ اللَّهُ كَانَ وَمَا لَمْ يَشَأْ لَمْ يَكُنْ أَعْلَمُ أَنَّ اللَّهَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ وَأَنَّ اللَّهَ قَدْ أَحَاطَ بِكُلِّ شَيْءٍ عِلْمًا
 
 Allah is without blemish. I begin with His praise, there is no power but in Allah. What Allah wills comes to pass and what He does not will does not happen. I know well that Allah is All-powerful and that Allah has comprehended everything in knowledge.
-(Abu Dawood, Nasa‘i, Ibn Sunni as narrated by one of the Prophet's ﷺ daughters)
+ref:(Abu Dawood, Nasa‘i, Ibn Sunni as narrated by one of the Prophet's ﷺ daughters)
 ---
 20:
 ar: أَصْبَحْنَا عَلى فِطْرَةِ الْإسْلَامِ، وَكَلِمَةِ الْإخْلَاصِ، وَدِيْنِ نَبيِّنَا مُحَمَّدٍ صَلَّى اللّهُ عَلَيْهِ وَسَلَّمَ، وَعَلَى مِلَّةِ أبِيْنَا إبْرَاهِيْمَ، حَنِيْفًا مُسْلِمًا، وَمَا كَانَ مِنَ الْمُشْرِكِيْنَ
 
 We have entered the morning observing the original of Islam, the assertion of Allah's unity, the religion of our Prophet Muhammad ﷺ and the community of our father Ibrahim, the upright, Muslim who was not one of the polytheists.
 
-(Ahmad Tabarani in al-kabeer as narrated by Abdur Rahman Ibn Abza)
-This Hadith is also found in Nasa'i, but is prescribed for morning only.)
+ref:(Ahmad Tabarani in al-kabeer as narrated by Abdur Rahman Ibn Abza)
+ref:This Hadith is also found in Nasa'i, but is prescribed for morning only.
 ---
 21:
 ar: يَا حَيُّ يَا قَيُّومُ بِرَحْمَتِكَ أَسْتَغيثُ أَصْلِحْ لِي شَأْنِيَ كُلَّهُ وَلاَ تَكِلْنِي إِلَى نَفْسِي طَرْفَةَ عَيْنٍ
@@ -159,7 +161,7 @@ morning and evening.
 ar: اللَّهُمَّ أَنْتَ رَبِّي، لَا إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ لَكَ بِذَنْبِي فَاغْفِرْ لِي فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ
 
 O Allah, you are my Lord. There is no God but you. You have created me, and I am your slave and hold to your covenant and promise as much as I can. I acknowledge your favour to me, and I acknowledge my sin. Forgive me, for none but you forgive sins.
-(Bukhari 6306, Nasai 5524, Tirmidhi 3393, as narrated by Shaddad Ibn Aws)
+ref:(Bukhari 6306, Nasai 5524, Tirmidhi 3393, as narrated by Shaddad Ibn Aws)
 
 This is Sayyid ul-Istighfaar. It is recommended to recite in the morning and evening and during day and night. The compiler has, therefore, recorded it in supplications of morning and evening and in supplications of day and night.
 
@@ -170,7 +172,7 @@ ar: اللَّهُمَّ أَنْتَ أَحَقُّ مَنْ ذُكِرَ، و�
 
 O Allah, you are the most worthy of remembrance of all who are remembered, and the most worthy of worship, and the most rightful one whose help is sought. And you the most compassionate of the masters and the most generous of those who are asked and the most bounteous of those who give. You are the sovereign and you have no partner. And you are Alone, and have no parallel. Everything will perish except you. There is no obedience except with your consent and no disobedience except with your knowledge. While obedience pleases you, you forgive disobedience. You are the nearest of those who witness and the closest of the protectors. You come between people and (their) evil yearnings (that is, you have control over their lives. You have their forelocks in your hands. You have recorded their deeds and decreed their life-span. The hearts are open before you and the secrets are to you like the proclaimed. The lawful are what you have permitted while the unlawful are what you have forbidden. Faith is what you have explained and the decree is what you have ordained. All the creation is yours and all slaves are yours. And You are Allah, the Compassionate, the Merciful. I ask You by the Light of your countenance which illuminates the heavens and the earth, and every right that You possess (to be worshipped and the right which the supplicants have over you that you forgive me this morning (or, this evening) and that by your Authority you save me from the Fire.
 
-(Tabarani in Kabeer and Kitab al-Du'a, as narrated by Abu mamah.)
+ref:(Tabarani in Kabeer and Kitab al-Du'a, as narrated by Abu mamah.)
 ---
 24: Make this supplication also in the morning and evening:
 
@@ -178,13 +180,14 @@ ar: حَسْبِىَ ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُ�
 
 "Sufficient is Allah for me. There is no God except Him. I place my trust magnificent throne." (Quran 9:129)
 
-Sayyidina Abu ad-Darda reported that the Prophet ﷺ said, "whoever recites this expression seven times morning and evening, Allah will be sufficient for him against all anxieties of this world and the next." (Ibn Sunni)
+Sayyidina Abu ad-Darda reported that the Prophet ﷺ said, "whoever recites this expression seven times morning and evening, Allah will be sufficient for him against all anxieties of this world and the next."
+ref:(Ibn Sunni)
 ---
 25:
 ar: لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ
 
 "There is no God but Allah, the Alone. He has no partner. To Him belongs the sovereignty and to Him belongs all praise. And He is Omnipotent."
-(Nasa'i, Ibn Hibban as narrated by Abu Ayyub Ansari «= and Tabarani and Ibn Sunni from Abu Hurayrah)
+ref:(Nasa'i, Ibn Hibban as narrated by Abu Ayyub Ansari «= and Tabarani and Ibn Sunni from Abu Hurayrah)
 
 Recite the expression ten times morning and evening.
 ---
@@ -192,13 +195,13 @@ Recite the expression ten times morning and evening.
 
 ar: سُبحَانَ اللهِ الْعَظِيمِ وَبِحَمْدِهٖ
 "Allah is without blemish and He is Mighty and I praise Him."
-(Muslim, Abu Dawood, Tirmidhi, Nasa'i, Haakim, Ibn Hibban, Abu Aw'anah as narrated by Abu Hurayrah.)
+ref:(Muslim, Abu Dawood, Tirmidhi, Nasa'i, Haakim, Ibn Hibban, Abu Aw'anah as narrated by Abu Hurayrah.)
 ---
 27: According to some versions recite morning and evening سُبحَانَ الله a hundred times, الحمد لله  a hundred times لَا إِلَهَ إِلَّا اللَّه hundred times
 and اللَّهُ اَكْبَر hundred times
 ---
 28: And invoke blessing on the Prophet ﷺ ten times in the morning and again in the evening.
-(Tabarani in alkabeer, narrated by Abu ad-Darda)
+ref:(Tabarani in alkabeer, narrated by Abu ad-Darda)
 ---
 29: If anyone is netted in anxiety or debt then he must make this supplication every morning and evening:
 
