@@ -1,6 +1,33 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
+import 'categories.dart';
+
+String _superScriptForNum(int n) {
+  return switch (n) {
+    1 => '\u00b9',
+    2 => '\u00b2',
+    3 => '\u00b3',
+    _ => throw "Missing superscript conversion for $n",
+  };
+}
+
+String _lineEndsWithRefNumber(String line) {
+  int open = line.lastIndexOf("[");
+  if (open == -1) {
+    // ignore: avoid_print
+    print("Unexpected, didn't find open bracket!!");
+    return line;
+  }
+  String num = line.substring(open + 1, line.length - 1);
+  int? n = int.tryParse(num);
+  if (n == null) {
+    return line;
+  }
+  num = _superScriptForNum(n);
+  return line.replaceRange(open, null, num);
+}
+
 class TextWidget extends StatelessWidget {
   final String text;
   const TextWidget(this.text, {super.key});
@@ -15,6 +42,12 @@ class TextWidget extends StatelessWidget {
     int s = firstLine.indexOf(':');
     String num = "";
     if (s != -1) num = firstLine.substring(0, s);
+
+    if (firstLine.endsWith("]")) {
+      firstLine = _lineEndsWithRefNumber(firstLine);
+    }
+
+    List<String> refs = [];
 
     if (int.tryParse(num) != null) {
       final first = Text.rich(
@@ -34,7 +67,7 @@ class TextWidget extends StatelessWidget {
       lines.removeAt(0);
     }
 
-    for (final line in lines) {
+    for (String line in lines) {
       if (line.startsWith('ar:')) {
         children.add(Text(
           line.substring(3),
@@ -48,10 +81,31 @@ class TextWidget extends StatelessWidget {
         ));
         continue;
       }
+
+      if (line.endsWith("]")) {
+        line = _lineEndsWithRefNumber(line);
+      }
+
+      if (line.startsWith('ref:')) {
+        refs.add(line.substring(4));
+        continue;
+      }
+
       children.add(Text(
         line,
         textDirection: dir,
         textAlign: TextAlign.start,
+      ));
+    }
+
+    // Add references
+    if (refs.isNotEmpty) {
+      children.add(const Divider(height: 1));
+    }
+    for (final ref in refs) {
+      children.add(Text(
+        ref,
+        style: Theme.of(context).textTheme.bodySmall,
       ));
     }
 

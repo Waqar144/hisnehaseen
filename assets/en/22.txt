@@ -2,7 +2,7 @@
 (Bukhari 247, Tirmidhi 3574, Abu Dawood 5046, 5048 as reported by Bara Ibn Aazib)
 
 Some versions say "obtain purity."
-(Tabarani in Awsat, as narrated by Ibn Abbas.)
+ref:(Tabarani in Awsat, as narrated by Ibn Abbas.)
 ---
 2: At his bed, he must dust it three times with the hem of his clothing and make the following supplication:
 ---
@@ -11,21 +11,21 @@ ar: بِاسْمِكَ رَبِّي وَضَعْتُ جَنْبِي وَبِكَ
 
 "With your Name (O Lord), do I place my side on it and with your power will I raise it. If you detain my soul (while I am sleeping) then forgive it and if you send it back (and let it live) then protect it as you protect your righteous slaves."
 
-(Bukhari 6320, Muslim 2714, Tirmidhi 3401, Abu Da'wud 5050, Ibn Majah 3874 narrated by Abu Hurayrah)
+ref:(Bukhari 6320, Muslim 2714, Tirmidhi 3401, Abu Da'wud 5050, Ibn Majah 3874 narrated by Abu Hurayrah)
 ---
-4: Sleep on your right side. (Muslim 2714, the six books, narrated by Abu Hurayrah.)
-
-Place your right hand under your head.
-(Abu Dawood, Ahmad, Ibn Sunni)
-
-Some versions say: place your right hand under your cheek. (Bukhari: 6314, Abu Dawood 5045)
+4: Sleep on your right side. [1]
+ref:(1. Muslim 2714, the six books, narrated by Abu Hurayrah.)
+Place your right hand under your head. [2]
+ref:(2. Abu Dawood, Ahmad, Ibn Sunni)
+Some versions say: place your right hand under your cheek. [3]
+ref:(3. Bukhari: 6314, Abu Dawood 5045)
 ---
 5:
 ar: بِسْمِ اللَّهِ وَضَعْتُ جَنْبِي، اللَّهُمَّ اغْفِرْ لِي ذَنْبِي وَاخْسَأْ شَيْطَانِي وَفُكَّ رِهَانِي  وَاجْعَلْنِي فِي النَّدِيِّ الْأَعْلَى
 
 "In the name of Allah, I have laid down my side for Allah. O Allah! forgive me my sin, drive away my devil, free me from my responsibility, and place me in the highest assembly"
 
-(Abu Dawood 5054, Haakim 1982, narrated by Abu Al Azhar Al-Ansari.)
+ref:(Abu Dawood 5054, Haakim 1982, narrated by Abu Al Azhar Al-Ansari.)
 ---
 6: Or, make this supplication:
 ar: اللَّهُمَّ قِنِي عَذَابَكَ يَوْمَ تَبْعَثُ عِبَادَكَ
@@ -39,21 +39,21 @@ Abu Dawood has stated that it must be read thrice.
 ar:  بِاسْمِكَ رَبِّي، وَضَعْتُ جَنْبِي، فَاغْفِرْ لِي ذَنْبِي
 
 "In your Name, my Lord! So forgive me my sins."
-(Musnad Ahmad 6620 narrated by Ibn Umar R.A)
+ref:(Musnad Ahmad 6620 narrated by Ibn Umar R.A)
 ---
 8: Or, make this supplication:
 ar: اللَّهُمَّ بِاسْمِكَ أمُوتُ وَأَحْيَا
 "O Allah! (It is) in your Name (that) I live and will die."
-(Bukhari 6314, Abu Dawood 5049, Tirmidhi 3417 narrated by Huzayfah R.A. Muslim 2711 narrated by Al-Bara)
+ref:(Bukhari 6314, Abu Dawood 5049, Tirmidhi 3417 narrated by Huzayfah R.A. Muslim 2711 narrated by Al-Bara)
 ---
 9: Before sleeping recite 33 times سُبْحَانَ اللَّهِ and 33 times الْحَمْدُ لِلَّهِ and 34 times اللَّهُ أَكْبَرُ.
-(Bukhari 5362, Muslim 2727, Abu Dawood 2988, Tirmizi 3408, as narrated by Ali R.A.)
+ref:(Bukhari 5362, Muslim 2727, Abu Dawood 2988, Tirmizi 3408, as narrated by Ali R.A.)
 ---
 10: Before going to sleep, put both hands together and recite Surah al-Ikhlas, al-Falaq and an-Naas. Blow over the hands and wipe with them as much of your body as you can beginning with the head, face and the front portion of the body. Do it three times. The Prophet #¢ did this before sleeping.
-(Bukhari 5017, Tirmidhi 3402, Abu Dawood 5056, as narrated by Sayyidah Ayshah)
+ref:(Bukhari 5017, Tirmidhi 3402, Abu Dawood 5056, as narrated by Sayyidah Ayshah)
 ---
 11: And, also recite Ayaat al-Kursi.
-(Bukhari 5010)
+ref:(Bukhari 5010)
 ---
 12:
 ar: الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنَا وَسَقَانَا وَكَفَانَا وَآوَانَا، فَكَمْ مِمَّنْ لَا كَافِيَ لَهُ وَلَا مُؤْوِيَ
@@ -64,52 +64,52 @@ ar: الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنَا وَ
 ar: الْحَمْدُ لِلَّهِ الَّذِي كَفَانِي وَآوَانِي وَأَطْعَمَنِي وَسَقَانِي، وَالَّذِي مَنَّ عَلَيَّ فَأَفْضَلَ، وَالَّذِي أَعْطَانِي فَأَجْزَلَ، الْحَمْدُ لِلَّهِ عَلَى كُلِّ حَالٍ، اللَّهُمَّ رَبَّ كُلِّ شَيْءٍ وَمَلِيكَهُ وَإِلَهَ كُلِّ شَيْءٍ أَعُوذُ بِكَ مِنَ النَّارِ
 
 Praise be to Allah Who has given me sufficiency, has guarded me, given me food and drink, been most gracious to me, and given to me most lavishly. Praise be to Allah in every circumstance. O Allah! Lord and King of everything, God of everything, I seek refuge in Thee from Hell.
-(Abu Dawood 5058 narrated by Ibn Umar R.A)
+ref:(Abu Dawood 5058 narrated by Ibn Umar R.A)
 --
 14:
 ar:  اللَّهُمَّ فَاطِرَ السَّمَوَاتِ وَالأَرْضِ عَالِمَ الْغَيْبِ وَالشَّهَادَةِ رَبَّ كُلِّ شَىْءٍ وَمَلِيكَهُ أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ أَنْتَ أَعُوذُ بِكَ مِنْ شَرِّ نَفْسِي وَشَرِّ الشَّيْطَانِ وَشِرْكِهِ
 
 O Allah, Creator of the heavens and the earth, Who knowest the unseen and the seen, Lord and Possessor of everything. I testify that there is no god but Thee; I seek refuge in Thee from the evil within myself, from the evil of the devil, and his (incitement to) attributing partners (to Allah).
 
-(Abu Dawood 5067, Tirmidhi 3392 as narrated by Abu Hurayrah)
+ref:(Abu Dawood 5067, Tirmidhi 3392 as narrated by Abu Hurayrah)
 ---
 15:
 ar: اللَّهُمَّ خَلَقْتَ نَفْسِي وَأَنْتَ تَوَفَّاهَا لَكَ مَمَاتُهَا وَمَحْيَاهَا إِنْ أَحْيَيْتَهَا فَاحْفَظْهَا وَإِنْ أَمَتَّهَا فَاغْفِرْ لَهَا اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَافِيَةَ
 
 "O Allah, you have created my soul and you will give it death. For you is its death and its life. So, if you give it life then protect it but if you cause it to die then forgive it. O Allah! I ask you for security.
 
-(Muslim 2712 as narrated by Ibn Umar)
+ref:(Muslim 2712 as narrated by Ibn Umar)
 ---
 16:
 ar: اللَّهُمَّ إِنِّي أَعُوذُ بِوَجْهِكَ الْكَرِيمِ وَكَلِمَاتِكَ التَّامَّةِ مِنْ شَرِّ مَا أَنْتَ آخِذٌ بِنَاصِيَتِهِ اللَّهُمَّ أَنْتَ تَكْشِفُ الْمَغْرَمَ وَالْمَأْثَمَ اللَّهُمَّ لاَ يُهْزَمُ جُنْدُكَ وَلاَ يُخْلَفُ وَعْدُكَ وَلاَ يَنْفَعُ ذَا الْجَدِّ مِنْكَ الْجَدُّ سُبْحَانَكَ وَبِحَمْدِكَ
 
-(Abu Dawood 5052 as narrated by Ali ibn Abi Talib R.A)
+ref:(Abu Dawood 5052 as narrated by Ali ibn Abi Talib R.A)
 ---
 17:
 ar: أَسْتَغْفِرُ اللَّهَ الْعَظِيمَ الَّذِي لاَ إِلَهَ إِلاَّ هُوَ الْحَىَّ الْقَيُّومَ وَأَتُوبُ إِلَيْهِ
 
 I seek forgiveness from Allah, [the Magnificent] the One whom there is none worthy of worship except for Him, the Living, the Sustainer, and I repent to Him.
 
-(Tirmidhi 3397 narrated by Abu Sa'eed)
+ref:(Tirmidhi 3397 narrated by Abu Sa'eed)
 ---
 18:
 ar: لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلَا إِلَهَ إِلَّا اللَّهُ وَاللَّهُ أَكْبَرُ
 
 There is no God but Allah who is Alone and who has no partner. To Him belongs the sovereignty and to Him belongs all praise, and He is over all things powerful. There is no power and no might (to keep away from sin and to do pious work) except with Allah. Glory be to Allah and all praise belongs to Allah and there is no God except Allah. And Allah is the Greatest."
 
-(Ibn Hibban 5528, Sahih Al-Targheeb 607 narrated Abu Hurayrah)
+ref:(Ibn Hibban 5528, Sahih Al-Targheeb 607 narrated Abu Hurayrah)
 ---
 19:
 ar: اللَّهُمَّ رَبَّ السَّمَوَاتِ وَرَبَّ الأَرْضِ وَرَبَّ الْعَرْشِ الْعَظِيمِ رَبَّنَا وَرَبَّ كُلِّ شَىْءٍ فَالِقَ الْحَبِّ وَالنَّوَى وَمُنْزِلَ التَّوْرَاةِ وَالإِنْجِيلِ وَالْفُرْقَانِ أَعُوذُ بِكَ مِنْ شَرِّ كُلِّ شَىْءٍ أَنْتَ آخِذٌ بِنَاصِيَتِهِ اللَّهُمَّ أَنْتَ الأَوَّلُ فَلَيْسَ قَبْلَكَ شَىْءٌ وَأَنْتَ الآخِرُ فَلَيْسَ بَعْدَكَ شَىْءٌ وَأَنْتَ الظَّاهِرُ فَلَيْسَ فَوْقَكَ شَىْءٌ وَأَنْتَ الْبَاطِنُ فَلَيْسَ دُونَكَ شَىْءٌ اقْضِ عَنَّا الدَّيْنَ وَأَغْنِنَا مِنَ الْفَقْرِ
 
 O Allah! Lord of the heavens and Lord of the earth and Lord of the Mighty Throne. Our Lord and Lord of everything. Splitter of the grain of corn and the date-stone! The Revealer of Tawrah and Injeel and the Furqan. I seek refuge in you from the mischief of everything that you have in your grasp. O Allah, you are the First, there being nothing before you and you are the Last, there is nothing after you. And you are the Manifest, there being nothing above you, and you are Concealed, there is nothing beyond you. Repay my debt and relieve me from want.
 
-(Muslim 2713, Tirmidhi 3481, Abu Dawood 5051 narrated Abu Hurayrah)
+ref:(Muslim 2713, Tirmidhi 3481, Abu Dawood 5051 narrated Abu Hurayrah)
 ---
 20:
 ar: اللَّهُمَّ أَسْلَمْتُ نَفْسِي إِلَيْكَ، وَوَجَّهْتُ وَجْهِي إِلَيْكَ وَفَوَّضْتُ أَمْرِي إِلَيْكَ، وَأَلْجَأْتُ ظَهْرِي إِلَيْكَ، رَغْبَةً وَرَهْبَةً إِلَيْكَ، لاَ مَلْجَأَ وَلاَ مَنْجَا مِنْكَ إِلاَّ إِلَيْكَ، آمَنْتُ بِكِتَابِكَ الَّذِي أَنْزَلْتَ، وَبِنَبِيِّكَ الَّذِي أَرْسَلْتَ‏.‏
 
 O Allah! I have surrendered myself over to you and have turned my face towards You, and leave all my affairs to You and depend on You and put my trust in You expecting Your reward and fearing Your punishment. There is neither fleeing from You nor refuge but with You. I believe in the Book (Qur'an) which You have revealed and in Your Prophet (Muhammad) whom You have sent.
 
-(Bukhari 7488, Muslim 2711, Tirmidhi 3394, Abu Dawood 5046 narrated by Bara Ibn Aazib R.A)
+ref:(Bukhari 7488, Muslim 2711, Tirmidhi 3394, Abu Dawood 5046 narrated by Bara Ibn Aazib R.A)
 ---
