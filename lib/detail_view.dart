@@ -50,19 +50,7 @@ class TextWidget extends StatelessWidget {
     List<String> refs = [];
 
     if (int.tryParse(num) != null) {
-      final first = Text.rich(
-        TextSpan(children: [
-          WidgetSpan(
-            child: CircleAvatar(
-              radius: 16,
-              child: Text(num),
-            ),
-            alignment: PlaceholderAlignment.baseline,
-            baseline: TextBaseline.alphabetic,
-          ),
-          TextSpan(text: firstLine.substring(s + 1)),
-        ]),
-      );
+      final first = Text(firstLine.substring(s + 1));
       children.add(first);
       lines.removeAt(0);
     }
@@ -164,9 +152,37 @@ class _DetailsViewState extends State<DetailsView> {
             key: const PageStorageKey<String>('mylisview'),
             itemCount: textLines.length,
             itemBuilder: (ctx, index) {
+              final line = textLines[index];
+
+              String? num;
+              int s = line.indexOf(':');
+              if (s != -1) num = line.substring(0, s);
+
               return Card(
                 child: ListTile(
-                  title: TextWidget(textLines[index]),
+                  title: Column(
+                    children: [
+                      Row(
+                        children: [
+                          if (num != null)
+                            CircleAvatar(
+                              radius: 16,
+                              child: Text(num),
+                            ),
+                          const Spacer(),
+                          IconButton(
+                            icon: const Icon(Icons.share),
+                            onPressed: () {},
+                          ),
+                          IconButton(
+                            icon: const Icon(Icons.bookmark),
+                            onPressed: () {},
+                          ),
+                        ],
+                      ),
+                      TextWidget(line),
+                    ],
+                  ),
                 ),
               );
             },
