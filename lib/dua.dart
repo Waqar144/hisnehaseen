@@ -49,6 +49,18 @@ class Dua {
 
     return Dua(num: num, body: body, refs: refs);
   }
+
+  String shareableText() {
+    String ret = "";
+    for (final line in body) {
+      ret += "$line\n";
+    }
+
+    for (final ref in refs) {
+      ret += "$ref\n";
+    }
+    return ret;
+  }
 }
 
 String _superScriptForNum(int n) {

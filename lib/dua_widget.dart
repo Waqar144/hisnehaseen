@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:share_plus/share_plus.dart';
+import 'dart:io' show Platform;
+import 'package:flutter/services.dart' show Clipboard, ClipboardData;
 
 import 'dua.dart';
 
@@ -73,28 +76,51 @@ class _DuaHeader extends StatelessWidget {
         const Spacer(),
         IconButton(
           icon: const Icon(Icons.share),
-          onPressed: () {},
+          onPressed: onSharePressed,
         ),
         IconButton(
           icon: const Icon(Icons.bookmark),
-          onPressed: () {},
+          onPressed: onBookmarkPressed,
         ),
       ],
     );
   }
 }
 
-class DuaWidget extends StatelessWidget {
+class DuaWidget extends StatefulWidget {
   final Dua _dua;
   DuaWidget(String duaText, {super.key}) : _dua = Dua.fromRaw(duaText);
 
-  void _shareDua() {}
+  @override
+  State<DuaWidget> createState() => _DuaWidgetState();
+}
+
+class _DuaWidgetState extends State<DuaWidget> {
+  void _shareDua() {
+    // On desktop just copy to clipboard
+    if (Platform.isLinux || Platform.isMacOS || Platform.isWindows) {
+      Clipboard.setData(ClipboardData(text: widget._dua.shareableText()));
+      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+        content: Text("Copied to clipboard"),
+        duration: Durations.extralong1,
+      ));
+      return;
+    }
+
+    final box = context.findRenderObject() as RenderBox?;
+
+    Share.share(
+      widget._dua.shareableText(),
+      subject: "",
+      sharePositionOrigin: box!.localToGlobal(Offset.zero) & box.size,
+    );
+  }
 
   void _bookmarkDua() {}
 
   @override
   Widget build(BuildContext context) {
-    String? num = _dua.num;
+    String? num = widget._dua.num;
     return Card(
       child: ListTile(
         title: Column(
@@ -103,7 +129,7 @@ class DuaWidget extends StatelessWidget {
                 num: num,
                 onSharePressed: _shareDua,
                 onBookmarkPressed: _bookmarkDua),
-            _DuaBody(_dua),
+            _DuaBody(widget._dua),
           ],
         ),
       ),
