@@ -23,6 +23,7 @@ class _DuaBody extends StatelessWidget {
           style: const TextStyle(
             fontFamily: "IndoPak",
             fontSize: 28,
+            height: 1.8,
             letterSpacing: 0,
           ),
         ));
