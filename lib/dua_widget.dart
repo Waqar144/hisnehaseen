@@ -2,31 +2,6 @@ import 'package:flutter/material.dart';
 
 import 'dua.dart';
 
-String _superScriptForNum(int n) {
-  return switch (n) {
-    1 => '\u00b9',
-    2 => '\u00b2',
-    3 => '\u00b3',
-    _ => throw "Missing superscript conversion for $n",
-  };
-}
-
-String _lineEndsWithRefNumber(String line) {
-  int open = line.lastIndexOf("[");
-  if (open == -1) {
-    // ignore: avoid_print
-    print("Unexpected, didn't find open bracket!!");
-    return line;
-  }
-  String num = line.substring(open + 1, line.length - 1);
-  int? n = int.tryParse(num);
-  if (n == null) {
-    return line;
-  }
-  num = _superScriptForNum(n);
-  return line.replaceRange(open, null, num);
-}
-
 class TextWidget extends StatelessWidget {
   final Dua _dua;
   const TextWidget(this._dua, {super.key});
