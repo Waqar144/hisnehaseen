@@ -60,7 +60,14 @@ class _HomePageState extends State<HomePage> {
                   _isSearching = true;
                 });
               },
-            )
+            ),
+          //
+          IconButton(
+            icon: const Icon(Icons.settings),
+            onPressed: () {
+              Navigator.of(context).pushNamed(Routes.settings);
+            },
+          ),
         ],
       ), // END appbar
       body: ValueListenableBuilder(
