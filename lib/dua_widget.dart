@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 import 'dua.dart';
 
-class TextWidget extends StatelessWidget {
+class _DuaBody extends StatelessWidget {
   final Dua _dua;
-  const TextWidget(this._dua, {super.key});
+  const _DuaBody(this._dua);
 
   @override
   Widget build(BuildContext context) {
@@ -51,9 +51,46 @@ class TextWidget extends StatelessWidget {
   }
 }
 
+class _DuaHeader extends StatelessWidget {
+  final String? num;
+  final VoidCallback onSharePressed;
+  final VoidCallback onBookmarkPressed;
+
+  const _DuaHeader(
+      {required this.num,
+      required this.onSharePressed,
+      required this.onBookmarkPressed});
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        if (num != null)
+          CircleAvatar(
+            radius: 16,
+            child: Text(num!),
+          ),
+        const Spacer(),
+        IconButton(
+          icon: const Icon(Icons.share),
+          onPressed: () {},
+        ),
+        IconButton(
+          icon: const Icon(Icons.bookmark),
+          onPressed: () {},
+        ),
+      ],
+    );
+  }
+}
+
 class DuaWidget extends StatelessWidget {
   final Dua _dua;
   DuaWidget(String duaText, {super.key}) : _dua = Dua.fromRaw(duaText);
+
+  void _shareDua() {}
+
+  void _bookmarkDua() {}
 
   @override
   Widget build(BuildContext context) {
@@ -62,25 +99,11 @@ class DuaWidget extends StatelessWidget {
       child: ListTile(
         title: Column(
           children: [
-            Row(
-              children: [
-                if (num != null)
-                  CircleAvatar(
-                    radius: 16,
-                    child: Text(num),
-                  ),
-                const Spacer(),
-                IconButton(
-                  icon: const Icon(Icons.share),
-                  onPressed: () {},
-                ),
-                IconButton(
-                  icon: const Icon(Icons.bookmark),
-                  onPressed: () {},
-                ),
-              ],
-            ),
-            TextWidget(_dua),
+            _DuaHeader(
+                num: num,
+                onSharePressed: _shareDua,
+                onBookmarkPressed: _bookmarkDua),
+            _DuaBody(_dua),
           ],
         ),
       ),
