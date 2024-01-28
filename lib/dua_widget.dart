@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'dua.dart';
+
 String _superScriptForNum(int n) {
   return switch (n) {
     1 => '\u00b9',
@@ -26,33 +28,15 @@ String _lineEndsWithRefNumber(String line) {
 }
 
 class TextWidget extends StatelessWidget {
-  final String text;
-  const TextWidget(this.text, {super.key});
+  final Dua _dua;
+  const TextWidget(this._dua, {super.key});
 
   @override
   Widget build(BuildContext context) {
-    List<String> lines = text.split('\n');
     TextDirection dir = TextDirection.ltr;
     List<Widget> children = [];
 
-    String firstLine = lines.first;
-    int s = firstLine.indexOf(':');
-    String num = "";
-    if (s != -1) num = firstLine.substring(0, s);
-
-    if (firstLine.endsWith("]")) {
-      firstLine = _lineEndsWithRefNumber(firstLine);
-    }
-
-    List<String> refs = [];
-
-    if (int.tryParse(num) != null) {
-      final first = Text(firstLine.substring(s + 1));
-      children.add(first);
-      lines.removeAt(0);
-    }
-
-    for (String line in lines) {
+    for (final line in _dua.body) {
       if (line.startsWith('ar:')) {
         children.add(Text(
           line.substring(3),
@@ -67,15 +51,6 @@ class TextWidget extends StatelessWidget {
         continue;
       }
 
-      if (line.endsWith("]")) {
-        line = _lineEndsWithRefNumber(line);
-      }
-
-      if (line.startsWith('ref:')) {
-        refs.add(line.substring(4));
-        continue;
-      }
-
       children.add(Text(
         line,
         textDirection: dir,
@@ -84,10 +59,10 @@ class TextWidget extends StatelessWidget {
     }
 
     // Add references
-    if (refs.isNotEmpty) {
+    if (_dua.refs.isNotEmpty) {
       children.add(const Divider(height: 1));
     }
-    for (final ref in refs) {
+    for (final ref in _dua.refs) {
       children.add(Text(
         ref,
         style: Theme.of(context).textTheme.bodySmall,
@@ -102,15 +77,12 @@ class TextWidget extends StatelessWidget {
 }
 
 class DuaWidget extends StatelessWidget {
-  final String _duaText;
-  const DuaWidget(this._duaText, {super.key});
+  final Dua _dua;
+  DuaWidget(String duaText, {super.key}) : _dua = Dua.fromRaw(duaText);
 
   @override
   Widget build(BuildContext context) {
-    String? num;
-    int s = _duaText.indexOf(':');
-    if (s != -1) num = _duaText.substring(0, s);
-
+    String? num = _dua.num;
     return Card(
       child: ListTile(
         title: Column(
@@ -133,7 +105,7 @@ class DuaWidget extends StatelessWidget {
                 ),
               ],
             ),
-            TextWidget(_duaText),
+            TextWidget(_dua),
           ],
         ),
       ),
