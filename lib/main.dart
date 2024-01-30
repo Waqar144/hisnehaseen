@@ -5,6 +5,8 @@ import 'route_handler.dart';
 import 'settings.dart';
 
 void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
   await Settings.instance.readSettings();
   runApp(const MyApp());
 }
