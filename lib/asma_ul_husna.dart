@@ -26,6 +26,7 @@ class _AsmaulHusnaState extends State<AsmaulHusna> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        title: const Text('Asma ul Husna'),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         shadowColor: Theme.of(context).colorScheme.shadow,
       ),
@@ -49,23 +50,22 @@ class _AsmaulHusnaState extends State<AsmaulHusna> {
               String meaning = parts[3].trim();
 
               return Card(
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: [
-                      Text(
-                        arWord,
-                        textDirection: TextDirection.rtl,
-                        style: const TextStyle(
-                          fontFamily: "IndoPak",
-                          fontSize: 24,
-                          letterSpacing: 0,
-                        ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text(
+                      arWord,
+                      textDirection: TextDirection.rtl,
+                      textAlign: TextAlign.center,
+                      style: const TextStyle(
+                        fontFamily: "IndoPak",
+                        fontSize: 20,
+                        letterSpacing: 0,
                       ),
-                      Text(meaning),
-                    ],
-                  ),
+                    ),
+                    Text(meaning, textAlign: TextAlign.center),
+                  ],
                 ),
               );
             },

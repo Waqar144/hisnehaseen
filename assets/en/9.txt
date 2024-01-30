@@ -82,7 +82,7 @@
 82 	ٱلْعَفُوُّ 	AL-‘AFUWW 	The Pardoner
 83 	ٱلْرَّؤُفُ 	AR-RA’OOF 	The Most Kind
 84 	مَالِكُ ٱلْمُلْكُ 	MAALIK-UL-MULK 	Master of the Kingdom, Owner of the Dominion
-85 	ذُو ٱلْجَلَالِ وَٱلْإِكْرَامُ 	DHUL-JALAALI WAL-IKRAAM 	Possessor of Glory and Honour, Lord of Majesty and Generosity
+85 	ذُو ٱلْجَلَالِ وَٱلْإِكْرَامُ 	DHUL-JALAALI WAL-IKRAAM 	The One who is Glorious and Majestic
 86 	ٱلْمُقْسِطُ 	AL-MUQSIT 	The Equitable, the Requiter
 87 	ٱلْجَامِعُ 	AL-JAAMI’ 	The Gatherer, the Uniter
 88 	ٱلْغَنيُّ 	AL-GHANIYY 	The Self-Sufficient, The Wealthy
