@@ -70,6 +70,8 @@ String _superScriptForNum(int n) {
     1 => '\u00b9',
     2 => '\u00b2',
     3 => '\u00b3',
+    4 => '\u2074',
+    5 => '\u2075',
     _ => throw "Missing superscript conversion for $n",
   };
 }

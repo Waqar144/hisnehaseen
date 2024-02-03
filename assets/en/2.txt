@@ -1,83 +1,126 @@
-1: To abstain from the unlawful in eating, drinking, dressing and earning. (Muslim, Tirmidhi, narrated by Abu Hurayrah)
+1: To abstain from the unlawful in eating, drinking, dressing and earning.
+ref:(Muslim, Tirmidhi, narrated by Abu Hurayrah)
 ---
-2: Sincerity. (Haakim)
+2: Sincerity.
+ref:(Haakim)
 ---
-3: To perform a pious deed before making supplication and to mention one's pious deeds during hard times. (Muslim, Tirmidhi, Abu Dawood narrated by Ibn Umar)
+3: To perform a pious deed before making supplication and to mention one's pious deeds during hard times.
+ref:(Muslim, Tirmidhi, Abu Dawood narrated by Ibn Umar)
 ---
-4: To keep oneself clean and pure. (The first four books, Ibn Hibban, Haakim, as narrated by Abu Bakrvesg; Siddiq)
+4: To keep oneself clean and pure.
+ref:(The first four books, Ibn Hibban, Haakim, as narrated by Abu Bakrvesg; Siddiq)
 ---
-5: To be in a state of ablution. (The six books. Narrated: Abu Musa al Ash'ary)
+5: To be in a state of ablution.
+ref:(The six books. Narrated: Abu Musa al Ash'ary)
 ---
-6: To face the direction of the Qiblah. (The 6 books, narrated: Abdullah Ibn Zayd Ibn Aasim al-Muzni)
+6: To face the direction of the Qiblah.
+ref:(The 6 books, narrated: Abdullah Ibn Zayd Ibn Aasim al-Muzni)
 ---
-7: To offer Salah (before making Du'a). (The 4 books, Ibn Hibban, Haakim, Narrated by Abu Bakr)
+7: To offer Salah (before making Du'a).
+ref:(The 4 books, Ibn Hibban, Haakim, Narrated by Abu Bakr)
 ---
-8: To sit on the hams both legs bent backwards turned back at the knees to the right. (Abu Awanah narrated by Aamir Ibnwzi. Kharijah.)
+8: To sit on the hams both legs bent backwards turned back at the knees to the right.
+ref:(Abu Awanah narrated by Aamir Ibnwzi. Kharijah.)
 ---
-9: To praise Allah before, and after, making supplication. (The six books, narrated by Anas).
+9: To praise Allah before, and after, making supplication.
+ref:(The six books, narrated by Anas).
 ---
-10: To invoke blessings on the Prophet ﷺ before, and after, making supplication. (Abu Dawood, Tirmizi, Nasa'i, Ibn Hibban, Haakim as narrated by Fuda'lah.)
+10: To invoke blessings on the Prophet ﷺ before, and after, making supplication.
+ref:(Abu Dawood, Tirmizi, Nasa'i, Ibn Hibban, Haakim as narrated by Fuda'lah.)
 ---
-11: To spread both the hands. (Tirmidhi, Haakim as narrated by Abu Al-Darda)
+11: To spread both the hands.
+ref:(Tirmidhi, Haakim as narrated by Abu Al-Darda)
 ---
-12: To raise both the hands. (The six books as narrated by Abu Humayd as-Saidi and Anas).
+12: To raise both the hands.
+ref:(The six books as narrated by Abu Humayd as-Saidi and Anas).
 ---
-13: To raise the hands to shoulder level. (Abu Dawood, Ahmad, Haakim as narrated by Ibn Abbas.)
+13: To raise the hands to shoulder level.
+ref:(Abu Dawood, Ahmad, Haakim as narrated by Ibn Abbas.)
 ---
-14: To keep the hands open. (The Hadith is Mawqoof at Ibn Abbas.)
+14: To keep the hands open.
+ref:(The Hadith is Mawqoof at Ibn Abbas.)
 ---
-15: To be respectful. (Muslim, Abu Dawood, Tirmidhi, Nasa'i as narrated by Ali)
+15: To be respectful.
+ref:(Muslim, Abu Dawood, Tirmidhi, Nasa'i as narrated by Ali)
 ---
-16: To show humility. (Ibn Abu Shaybah, as narrated by Muslim Ibn Yasar)
+16: To show humility.
+ref:(Ibn Abu Shaybah, as narrated by Muslim Ibn Yasar)
 ---
-17: To display lowliness and need. (Tirmidhi as narrated by Al-Fad Ibn Abbas)
+17: To display lowliness and need.
+ref:(Tirmidhi as narrated by Al-Fad Ibn Abbas)
 ---
-18: Not to raise one's gaze towards the sky. (Muslim, Nasa'i as narrated by Abu Hurayrah.)
+18: Not to raise one's gaze towards the sky.
+ref:(Muslim, Nasa'i as narrated by Abu Hurayrah.)
 ---
-19: To beseech Allah by reference to His names and Attributes. (Ibn Hibban, Haakim as narrated by Ibn Mas'ood.)
+19: To beseech Allah by reference to His names and Attributes.
+ref:(Ibn Hibban, Haakim as narrated by Ibn Mas'ood.)
 ---
-20: To abstain from ceremonial rhyming of words. (Bukhari as narrated by Ibn Abbas)
+20: To abstain from ceremonial rhyming of words.
+ref:(Bukhari as narrated by Ibn Abbas)
 ---
-21: To abstain from singing or using that style. (Hadith Mawqoof)
+21: To abstain from singing or using that style.
+ref:(Hadith Mawqoof)
 ---
 22: To use the means of the Prophets
 ---
-23: To refer to Allah's pious slaves. (Bukhari as narrated by Anas)
+23: To refer to Allah's pious slaves.
+ref:(Bukhari as narrated by Anas)
 ---
-24: To keep a low, soft voice. (The six books, as narrated by Abu Musa al-Asha'ry)
+24: To keep a low, soft voice.
+ref:(The six books, as narrated by Abu Musa al-Asha'ry)
 ---
-25: To confess one's sins. (The six books, as narrated by Ayshah)
+25: To confess one's sins.
+ref:(The six books, as narrated by Ayshah)
 ---
-26: To use the supplication of Allah's Messenger ﷺ which we know from authentic lines of transmission because he has not left us any need to use other words in supplication. (Abu Dawood, Nasa'i narrated by Abu Bakr ath Taaqafi)
+26: To use the supplication of Allah's Messenger ﷺ which we know from authentic lines of transmission because he has not left us any need to use other words in supplication.
+ref:(Abu Dawood, Nasa'i narrated by Abu Bakr ath Taaqafi)
 ---
-27: To select comprehensive supplication. (Abu Dawood, as narrated by Sayyidah Ayshah.)
+27: To select comprehensive supplication.
+ref:(Abu Dawood, as narrated by Sayyidah Ayshah.)
 ---
-28: To begin with prayer for oneself and include one's parents and the Believers. (Muslim, Abu Darda, Umm Salmah)
+28: To begin with prayer for oneself and include one's parents and the Believers.
+ref:(Muslim, Abu Darda, Umm Salmah)
 ---
-29: Imam should not make prayer only for himself. (Abu Dawood, Tirmidhi, Ibn Majah as narrated by Thawban.)
+29: Imam should not make prayer only for himself.
+ref:(Abu Dawood, Tirmidhi, Ibn Majah as narrated by Thawban.)
 ---
-30: To pray with determination and hope. (all six books Abu Hurayrah)
+30: To pray with determination and hope.
+ref:(all six books Abu Hurayrah)
 ---
-31: To pray with deep yearning and interest. (Ibn Hibban, Abu Awanah, narrated by Abu Hurayrah.)
+31: To pray with deep yearning and interest.
+ref:(Ibn Hibban, Abu Awanah, narrated by Abu Hurayrah.)
 ---
-32: To make full effort to put in the heart in the prayer and have good hope. (Haakim, Abu Hurayrah)
+32: To make full effort to put in the heart in the prayer and have good hope.
+ref:(Haakim, Abu Hurayrah)
 ---
-33: To repeat every prayer often (Bukhari, Muslim as narrated by Jarir Ibn Abu Bajla) at least three times (Abu Dawood, Ibn Sani as narrated by Abu Umayyah al-Makhzoomi).
+33: To repeat every prayer often [1]
+at least three times.[2]
+ref:(1. Bukhari, Muslim as narrated by Jarir Ibn Abu Bajla)
+ref:(2. Abu Dawood, Ibn Sani as narrated by Abu Umayyah al-Makhzoomi)
 ---
-34: To insist and ask for more. (Nasa'i, Haakim, Abu Awanah, narrated by Abdullah Ibn Ja'far.)
+34: To insist and ask for more.
+ref:(Nasa'i, Haakim, Abu Awanah, narrated by Abdullah Ibn Ja'far.)
 ---
-35: Not to pray for a sinful demand and severance of ties of kinship. (Muslim, Tirmidhi Narrated by Abu Hurayrah.)
+35: Not to pray for a sinful demand and severance of ties of kinship.
+ref:(Muslim, Tirmidhi Narrated by Abu Hurayrah.)
 ---
-36: Not to pray for something that is already ordained otherwise (which cannot normally be changed like asking for change of gender, for consignment to heaven or for a hundred-foot height) (Nasa'i, Narrated by Ibn Mas'ood.)
+36: Not to pray for something that is already ordained otherwise (which cannot normally be changed like asking for change of gender, for consignment to heaven or for a hundred-foot height)
+ref:(Nasa'i, Narrated by Ibn Mas'ood.)
 ---
-37: Not to pray for the impossible or for anything that is not normally possible in the manner asked. (Bukhari, narrated by Ibn Abbas)
+37: Not to pray for the impossible or for anything that is not normally possible in the manner asked.
+ref:(Bukhari, narrated by Ibn Abbas)
 ---
-38: Do not restrict Allah's Mercy (by asking for it for oneself or a limited number at the exclusion of others). (Bukhari, Abu Dawood, Nasa'i Ibn Ma'jah as narrated by Abu Hurayrah)
+38: Do not restrict Allah's Mercy (by asking for it for oneself or a limited number at the exclusion of others).
+ref:(Bukhari, Abu Dawood, Nasa'i Ibn Ma'jah as narrated by Abu Hurayrah)
 ---
-39: To pray for every need. (Ibn Hibban as narrated by Anas)
+39: To pray for every need.
+ref:(Ibn Hibban as narrated by Anas)
 ---
-40: Both the one who supplicates and one who hears him must say Aameen.(Bukhari, Muslim, Abu Dawood, Nasa'i as narrated by Abu Hurayrah.)
+40: Both the one who supplicates and one who hears him must say Aameen.
+ref:(Bukhari, Muslim, Abu Dawood, Nasa'i as narrated by Abu Hurayrah.)
 ---
-41: To wipe the face with both hands after having finished the supplication. (Abu Dawood, Tirmidhi, Ibn Hibban, Ibn Ma'jah, Haakim as narrated by Ibn Abbas.)
+41: To wipe the face with both hands after having finished the supplication.
+ref:(Abu Dawood, Tirmidhi, Ibn Hibban, Ibn Ma'jah, Haakim as narrated by Ibn Abbas.)
 ---
-42: Do not show haste. If the signs of acceptance are not seen soon, do not lose hope and stop making supplication. Do not say, "I prayed but it was not accepted." (Bukhari, Muslim, Abu Dawood, Nasa'i Ibn Majah as narrated by Abu Hurayrah.)
+42: Do not show haste. If the signs of acceptance are not seen soon, do not lose hope and stop making supplication. Do not say, "I prayed but it was not accepted."
+ref:(Bukhari, Muslim, Abu Dawood, Nasa'i Ibn Majah as narrated by Abu Hurayrah.)

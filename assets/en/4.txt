@@ -1,33 +1,49 @@
-1: Lailatul-Qadr (Night of power). (Tirmidhi, Nasa'i, Ibn Ma'jah, Haakim as narrated by Ayshah)
+1: Lailatul-Qadr (Night of power).
+ref:(Tirmidhi, Nasa'i, Ibn Ma'jah, Haakim as narrated by Ayshah)
 ---
-2: The day of Arafah (Tirmidhi, as narrated by Amr Ibn Shu'ayb)
+2: The day of Arafah
+ref:(Tirmidhi, as narrated by Amr Ibn Shu'ayb)
 ---
-3: The month of Ramadan. (Bazzar, Ubadah Ibn as-Samit)
+3: The month of Ramadan.
+ref:(Bazzar, Ubadah Ibn as-Samit)
 ---
-4: The night of Friday. (Tirmidhi, Haakim, Ibn Abbas.)
+4: The night of Friday.
+ref:(Tirmidhi, Haakim, Ibn Abbas.)
 ---
-5: The day of Friday. (Abu Dawood, Nasa'i, Ibn Ma'jah, Ibn Hibban, Haakim as Narrated by Abu Hurayrah)
+5: The day of Friday.
+ref:(Abu Dawood, Nasa'i, Ibn Ma'jah, Ibn Hibban, Haakim as Narrated by Abu Hurayrah)
 ---
-6: At midnight. (Tabarani) Some versions mention the second half of the night. (Haakim, Abu Hurayrah)
+6: At midnight.
+ref:(Tabarani)
+ref:Some versions mention the second half of the night. (Haakim, Abu Hurayrah)
 ---
-7: The first one-third of night. (Ahmad, Abu Ya'la)
+7: The first one-third of night.
+ref:(Ahmad, Abu Ya'la)
 ---
-8: The last one-third night. (Musnad Ahmad) and
+8: The last one-third night.
+ref:(Musnad Ahmad)
 ---
-9: The middle part of the last one third night. (Abu Dawood, Tirmidhi Nasa'i, Tabarani, Bazzar, Amr Ibn Abas)
+9: The middle part of the last one third night.
+ref:(Abu Dawood, Tirmidhi Nasa'i, Tabarani, Bazzar, Amr Ibn Abas)
 ---
-10: The time of Sahr (predawn meal or false dawn). (The six books as narrated by Abu Hurayrah.)
+10: The time of Sahr (predawn meal or false dawn).
+ref:(The six books as narrated by Abu Hurayrah.)
 ---
 11: The most hopeful of all these moments is the hour on Friday from the time the Imam sits on the minbar (pulpit) till the time when the
-Salah is over.(Muslim, Abu Dawood as narrated by Abu Musas.)
+Salah is over.[1]
+ref:(1. Muslim, Abu Dawood as narrated by Abu Musas.)
 
-And, we learn from a Hadith that the moment is between the beginning of the Salah and the turning for Salaam. (Tirmidhi, [bn Ma'jah as narrated by Amr Ibn Awf)
+And, we learn from a Hadith that the moment is between the beginning of the Salah and the turning for Salaam.[2]
+ref:(2. Tirmidhi, [bn Ma'jah as narrated by Amr Ibn Awf)
 
-Another Hadith says the time is when the one who supplicates stands in Salah. (Bukhari, Muslim, Nasa'i, Ibn Ma'jah as narrated by Abu Hurayrah.)
+Another Hadith says the time is when the one who supplicates stands in Salah.[3]
+ref:(3. Bukhari, Muslim, Nasa'i, Ibn Ma'jah as narrated by Abu Hurayrah.)
 
-Some have said that the moment lies on Friday after the ASR Salah till sunset. (Tirmidhi the Hadith is Mawqoof.)
+Some have said that the moment lies on Friday after the ASR Salah till sunset.[4]
+ref:(4. Tirmidhi the Hadith is Mawqoof.)
 
-Some suggest the last moments of Friday. (Abu Dawood, Nasa'i, Marfook, from Jabir. Also, Muwatta Imam Maalik, Abu Dawood, Nasa'i, Haakim, Marfoo from Abdullah Ibn Salaam.)
+Some suggest the last moments of Friday.[5]
+ref:(5. Abu Dawood, Nasa'i, Marfook, from Jabir. Also, Muwatta Imam Maalik, Abu Dawood, Nasa'i, Haakim, Marfoo from Abdullah Ibn Salaam.)
 
 Some others have suggested that the moment lies between rise of dawn and sunrise.
 

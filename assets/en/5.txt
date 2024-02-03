@@ -1,50 +1,70 @@
-1: When the adhan is called out for Salah. (Abu Dawood, Haakim as narrated by Sahl Ibn Sa'd.)
+1: When the adhan is called out for Salah.
+ref:(Abu Dawood, Haakim as narrated by Sahl Ibn Sa'd.)
 ---
-2: The supplication between Adhan and Iqamah. (Abu Dawood, Tirmidhi, Nasa'i, Ibn Hibban, as narrated by Anas)
+2: The supplication between Adhan and Iqamah.
+ref:(Abu Dawood, Tirmidhi, Nasa'i, Ibn Hibban, as narrated by Anas)
 ---
 3: The supplication of a person in distress and sorrow after the Mu'addin calls out
 ar: حي على الصلاة
  and
 ar: حي على الفلاح
- (Hayya alas Salah, hayya alal falah) in the addan. (Haakim as narrated by Abu Umamah.)
+ (Hayya alas Salah, hayya alal falah) in the addan.
+ref:(Haakim as narrated by Abu Umamah.)
  ---
-4: In the battle field ofjihad when the rows are formed. (Ibn Hibban, Tabarani, Marfoo from Sahl Ibn Sa'd t. Also, Muwatta Imam Maalik Mawgqoof from Sahl Ibn Sa'd)
+4: In the battle field ofjihad when the rows are formed.
+ref:(Ibn Hibban, Tabarani, Marfoo from Sahl Ibn Sa'd t. Also, Muwatta Imam Maalik Mawgqoof from Sahl Ibn Sa'd)
 ---
-5: At the time of the battle when they (the believers and disbelievers) kill one another. (Abu Dawood, Narrated by Sah)
+5: At the time of the battle when they (the believers and disbelievers) kill one another.
+ref:(Abu Dawood, Narrated by Sah)
 ---
-6: After the fard salah. (Tirmidhi, Nasa'i, as narrated by Abu Uma'mah)
+6: After the fard salah.
+ref:(Tirmidhi, Nasa'i, as narrated by Abu Uma'mah)
 ---
-7: In the prostration posture (Muslim, Abu Dawood, Nasa'i, as narrated by Abu Hurayrah.)
+7: In the prostration posture
+ref:(Muslim, Abu Dawood, Nasa'i, as narrated by Abu Hurayrah.)
 ---
-8: After reciting the Qur'an. (Tirmidhi, as narrated by Imran Ibn Husayn.)
+8: After reciting the Qur'an.
+ref:(Tirmidhi, as narrated by Imran Ibn Husayn.)
 ---
-9: Particularly when the whole Qur'an is recited. (Tabarani, Marfoo from Imran Ibn Husayn. Also, Ibn Abu Shaybah, Mawqoof al Abu Lubabah and Mujahid.)
+9: Particularly when the whole Qur'an is recited.
+ref:(Tabarani, Marfoo from Imran Ibn Husayn. Also, Ibn Abu Shaybah, Mawqoof al Abu Lubabah and Mujahid.)
 
-And particularly the supplication of one who has himself recited the whole Qur'an. (Tirmidhi, Tabarani as narrated by Imran Ibn Husayn.)
+And particularly the supplication of one who has himself recited the whole Qur'an.
+ref:(Tirmidhi, Tabarani as narrated by Imran Ibn Husayn.)
 ---
-10: While drinking the water of Zam Zam. (Haakim, as narrated by Ibn Abbas.)
+10: While drinking the water of Zam Zam.
+ref:(Haakim, as narrated by Ibn Abbas.)
 ---
-11: At the time of coming to the dead. (Muslim, the four books, as narrated by Umm Salamah.)
+11: At the time of coming to the dead.
+ref:(Muslim, the four books, as narrated by Umm Salamah.)
 ---
-12: When the cock crows. (Bukhari, Muslim, Tirmidhi, Nasa'l, from Abu Hurayrah)
+12: When the cock crows.
+ref:(Bukhari, Muslim, Tirmidhi, Nasa'l, from Abu Hurayrah)
 ---
-13: When Muslims get together. (the six books, as narrated by Umm Atiyah al-Ansariyah.)
+13: When Muslims get together.
+ref:(the six books, as narrated by Umm Atiyah al-Ansariyah.)
 ---
-14: In assemblies of Zikr. (Bukhari, Muslim, Tirmidhi, Nasa'l as narrated by Abu Hurayrah.)
+14: In assemblies of Zikr.
+ref:(Bukhari, Muslim, Tirmidhi, Nasa'l as narrated by Abu Hurayrah.)
 ---
 15: When the Imam says
 ar: وَلَا ٱلضَّآلِّينَ
-(at the conclusion of al-Fatihah). (Muslim, Abu Dawood Nasa'i Ibn Majah as narrated by Abu Hurayrah and Abu Musa)
+(at the conclusion of al-Fatihah).
+ref:(Muslim, Abu Dawood Nasa'i Ibn Majah as narrated by Abu Hurayrah and Abu Musa)
 ---
-16: when shutting the eyes of the dead. (Muslim, Abu Dawood Nasa'i, Ibn Majah as narrated by Umm Salamah)
+16: when shutting the eyes of the dead.
+ref:(Muslim, Abu Dawood Nasa'i, Ibn Majah as narrated by Umm Salamah)
 ---
-17: When the Iqamah is called for the Salah. (Tabarani, Ibn Mardawiyah as narrated by Sahe.)
+17: When the Iqamah is called for the Salah.
+ref:(Tabarani, Ibn Mardawiyah as narrated by Sahe.)
 ---
-18: When it is raining. (Abu Dawood, Tabarani, Ibn Mardawiyah as narrated by Sahl.)
+18: When it is raining.
+ref:(Abu Dawood, Tabarani, Ibn Mardawiyah as narrated by Sahl.)
 
 Imam Shafee has narrated by it in his books al-Umm and confirmed that he has heard from many Ulama that prayer is answered when it rains.
 ---
-19: The compiler says that supplication is accepted when one's glance falls on the Ka'bah. (Tirmidhi, Tabarani as narrated by Abu Hurayrah.)
+19: The compiler says that supplication is accepted when one's glance falls on the Ka'bah.
+ref:(Tirmidhi, Tabarani as narrated by Abu Hurayrah.)
 ---
 20: Between two successive occurrences of the word Allah in Surah al-An'am.
 
