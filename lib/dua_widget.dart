@@ -116,7 +116,29 @@ class _DuaWidgetState extends State<DuaWidget> {
     );
   }
 
-  void _bookmarkDua() {}
+  void _bookmarkDua() async {
+    await showDialog(
+        context: context,
+        builder: (ctx) {
+          // ignore: prefer_const_constructors
+          return AlertDialog(
+            title: const Text("Create Bookmark"),
+            content: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                const Text("Folder"),
+                DropdownButton(
+                  onChanged: (s) {},
+                  items: ["First", "Second", "Third"].map((s) {
+                    return DropdownMenuItem(value: s, child: Text(s));
+                  }).toList(),
+                )
+              ],
+            ),
+          );
+        });
+  }
 
   @override
   Widget build(BuildContext context) {

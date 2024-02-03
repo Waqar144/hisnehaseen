@@ -52,6 +52,14 @@ class _HomePageState extends State<HomePage> {
             });
           },
         ),
+      // Bookmarks Button
+      IconButton(
+        icon: const Icon(Icons.bookmark),
+        tooltip: "Bookmarks",
+        onPressed: () {
+          Navigator.of(context).pushNamed(Routes.bookmarks);
+        },
+      ),
       // Settings Button
       IconButton(
         icon: const Icon(Icons.settings),

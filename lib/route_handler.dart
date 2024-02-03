@@ -4,10 +4,12 @@ import 'detail_view.dart';
 import 'home_page.dart';
 import 'asma_ul_husna.dart';
 import 'settings_page.dart';
+import 'bookmarks_page.dart';
 
 class Routes {
   static const String showCategory = "showCategory";
   static const String settings = "settings";
+  static const String bookmarks = "bookmarks";
 }
 
 Widget handleChapter(int index) {
@@ -23,6 +25,7 @@ MaterialPageRoute onGenerateRoute(RouteSettings? settings) {
       return switch (settings?.name ?? "") {
         Routes.showCategory => handleChapter(settings?.arguments as int),
         Routes.settings => SettingsPage(),
+        Routes.bookmarks => BookmarksPage(),
         _ => const HomePage(title: 'Al-Hisn Al-Haseen')
       };
     },
