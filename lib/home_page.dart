@@ -36,6 +36,32 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
+  List<Widget> _appbarActions() {
+    if (_isSearching) {
+      return [];
+    }
+
+    return [
+      // Search button
+      if (_isSearching == false)
+        IconButton(
+          icon: const Icon(Icons.search),
+          onPressed: () {
+            setState(() {
+              _isSearching = true;
+            });
+          },
+        ),
+      // Settings Button
+      IconButton(
+        icon: const Icon(Icons.settings),
+        onPressed: () {
+          Navigator.of(context).pushNamed(Routes.settings);
+        },
+      ),
+    ];
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -50,25 +76,7 @@ class _HomePageState extends State<HomePage> {
               })
             : null,
         title: _buildAppbarTitleWidget(),
-        actions: [
-          // Search button
-          if (_isSearching == false)
-            IconButton(
-              icon: const Icon(Icons.search),
-              onPressed: () {
-                setState(() {
-                  _isSearching = true;
-                });
-              },
-            ),
-          //
-          IconButton(
-            icon: const Icon(Icons.settings),
-            onPressed: () {
-              Navigator.of(context).pushNamed(Routes.settings);
-            },
-          ),
-        ],
+        actions: _appbarActions(),
       ), // END appbar
       body: ValueListenableBuilder(
         valueListenable: _filterText,
