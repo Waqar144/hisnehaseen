@@ -27,6 +27,8 @@ class Dua {
     if (num != null && int.tryParse(num) != null) {
       lines.removeAt(0);
       body.add(firstLine.substring(s + 1));
+    } else {
+      num = null;
     }
 
     for (String line in lines) {

@@ -56,7 +56,7 @@ class _DuaBody extends StatelessWidget {
 }
 
 class _DuaHeader extends StatelessWidget {
-  final String? num;
+  final String num;
   final VoidCallback onSharePressed;
   final VoidCallback onBookmarkPressed;
 
@@ -69,11 +69,10 @@ class _DuaHeader extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        if (num != null)
-          CircleAvatar(
-            radius: 16,
-            child: Text(num!),
-          ),
+        CircleAvatar(
+          radius: 16,
+          child: Text(num),
+        ),
         const Spacer(),
         IconButton(
           icon: const Icon(Icons.share),
@@ -122,14 +121,23 @@ class _DuaWidgetState extends State<DuaWidget> {
   @override
   Widget build(BuildContext context) {
     String? num = widget._dua.num;
+    // If there is no number then show simple text
+    if (num == null) {
+      return Padding(
+        padding: const EdgeInsets.all(16),
+        child: Text(widget._dua.body.join("\n")),
+      );
+    }
+
     return Card(
       child: ListTile(
         title: Column(
           children: [
             _DuaHeader(
-                num: num,
-                onSharePressed: _shareDua,
-                onBookmarkPressed: _bookmarkDua),
+              num: num,
+              onSharePressed: _shareDua,
+              onBookmarkPressed: _bookmarkDua,
+            ),
             _DuaBody(widget._dua),
           ],
         ),
