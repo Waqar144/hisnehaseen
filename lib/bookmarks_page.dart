@@ -64,7 +64,7 @@ class _BookmarksPageState extends State<BookmarksPage> {
 
   @override
   Widget build(BuildContext context) {
-    final manager = BookmarkManager.instance;
+    final folders = BookmarkManager.instance.getBookmarkFolders();
     return Scaffold(
       appBar: AppBar(
         title: const Text("Bookmarks"),
@@ -78,24 +78,14 @@ class _BookmarksPageState extends State<BookmarksPage> {
           )
         ],
       ),
-      body: FutureBuilder(
-        future: manager.getBookmarkFolders(),
-        builder: (context, snapshot) {
-          if (!snapshot.hasData) {
-            return const Center(child: Text("Loading..."));
-          }
-          final data = snapshot.data!;
-
-          return ListView.builder(
-            itemCount: data.length,
-            itemBuilder: (ctx, idx) {
-              return Card(
-                child: ListTile(
-                  title: Text(data[idx].displayName),
-                  trailing: Text("$idx"),
-                ),
-              );
-            },
+      body: ListView.builder(
+        itemCount: folders.length,
+        itemBuilder: (ctx, idx) {
+          return Card(
+            child: ListTile(
+              title: Text(folders[idx].displayName),
+              trailing: Text("$idx"),
+            ),
           );
         },
       ),

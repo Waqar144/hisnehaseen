@@ -50,7 +50,7 @@ class _BookmarkDialogState extends State<_BookmarkDialog> {
         TextButton(
           child: const Text("Cancel"),
           onPressed: () {
-            Navigator.of(context).pop("");
+            Navigator.of(context).pop(null);
           },
         ),
         TextButton(
@@ -117,12 +117,15 @@ class _DuaBody extends StatelessWidget {
 class _DuaHeader extends StatelessWidget {
   final String num;
   final VoidCallback onSharePressed;
-  final VoidCallback onBookmarkPressed;
+  final void Function(bool) onBookmarkPressed;
+  final bool isDuaBookmarked;
 
-  const _DuaHeader(
-      {required this.num,
-      required this.onSharePressed,
-      required this.onBookmarkPressed});
+  const _DuaHeader({
+    required this.num,
+    required this.onSharePressed,
+    required this.onBookmarkPressed,
+    required this.isDuaBookmarked,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -138,8 +141,10 @@ class _DuaHeader extends StatelessWidget {
           onPressed: onSharePressed,
         ),
         IconButton(
-          icon: const Icon(Icons.bookmark),
-          onPressed: onBookmarkPressed,
+          icon: isDuaBookmarked
+              ? const Icon(Icons.bookmark)
+              : const Icon(Icons.bookmark_outline),
+          onPressed: () => onBookmarkPressed(isDuaBookmarked),
         ),
       ],
     );
@@ -178,8 +183,14 @@ class _DuaWidgetState extends State<DuaWidget> {
     );
   }
 
-  void _bookmarkDua() async {
-    final folders = await BookmarkManager.instance.getBookmarkFolders();
+  void _bookmarkDua(bool alreadyBookmarked) async {
+    if (alreadyBookmarked) {
+      BookmarkManager.instance
+          .removeBookmark(widget.categoryIndex, widget._dua.num!);
+      return;
+    }
+
+    final folders = BookmarkManager.instance.getBookmarkFolders();
     if (!mounted) return;
 
     final selected = await showDialog<BookmarkFolder>(
@@ -224,6 +235,8 @@ class _DuaWidgetState extends State<DuaWidget> {
               num: num,
               onSharePressed: _shareDua,
               onBookmarkPressed: _bookmarkDua,
+              isDuaBookmarked: BookmarkManager.instance
+                  .isDuaBookmarked(widget.categoryIndex, num),
             ),
             _DuaBody(widget._dua),
           ],
