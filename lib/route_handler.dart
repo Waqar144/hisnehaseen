@@ -25,7 +25,7 @@ MaterialPageRoute onGenerateRoute(RouteSettings? settings) {
       return switch (settings?.name ?? "") {
         Routes.showCategory => handleChapter(settings?.arguments as int),
         Routes.settings => SettingsPage(),
-        Routes.bookmarks => BookmarksPage(),
+        Routes.bookmarks => const BookmarksPage(),
         _ => const HomePage(title: 'Al-Hisn Al-Haseen')
       };
     },

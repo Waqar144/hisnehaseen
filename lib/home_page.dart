@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'categories.dart';
 import 'route_handler.dart';
+import 'bookmark_manager.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key, required this.title});
@@ -14,6 +15,13 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   final _filterText = ValueNotifier("");
   var _isSearching = false;
+
+  @override
+  void initState() {
+    super.initState();
+
+    BookmarkManager.instance.init();
+  }
 
   List<String> _filteredCategories() {
     String filterText = _filterText.value.toLowerCase();
