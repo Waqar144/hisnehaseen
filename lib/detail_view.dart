@@ -53,7 +53,7 @@ class _DetailsViewState extends State<DetailsView> {
             itemCount: textLines.length,
             itemBuilder: (ctx, index) {
               final line = textLines[index];
-              return DuaWidget(line);
+              return DuaWidget(widget.categoryIndex, line);
             },
           );
         },

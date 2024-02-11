@@ -1,6 +1,12 @@
 import 'dart:io';
 import 'package:path_provider/path_provider.dart';
 
+/// The directory in which all bookmarks live
+Future<String> _bookmarksDir() async {
+  final appDir = await getApplicationDocumentsDirectory();
+  return "${appDir.path}${Platform.pathSeparator}hisnhaseen";
+}
+
 /// Represents a bookmark folder
 class BookmarkFolder {
   /// the actual name of the file that it represents
@@ -56,12 +62,6 @@ class BookmarkManager {
     folders?.add(BookmarkFolder(displayName: displayName, folderName: name));
   }
 
-  /// The directory in which all bookmarks live
-  Future<String> _bookmarksDir() async {
-    final appDir = await getApplicationDocumentsDirectory();
-    return "${appDir.path}${Platform.pathSeparator}hisnhaseen";
-  }
-
   /// Gets the list of bookmark folders
   /// We only fetch the folders from disk once i.e., the
   /// the first time this method is called
@@ -89,5 +89,18 @@ class BookmarkManager {
       }
     }
     return folders!;
+  }
+
+  void bookmarkDua(
+      BookmarkFolder folder, int categoryIndex, String duaId) async {
+    final dir = await _bookmarksDir();
+    String file = "$dir${Platform.pathSeparator}${folder.folderName}";
+    print("Saving to $file");
+    File f = File(file);
+    String existing = f.readAsStringSync();
+    existing += "$categoryIndex:$duaId\n";
+
+    File w = File(file);
+    w.writeAsStringSync(existing);
   }
 }

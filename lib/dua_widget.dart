@@ -4,6 +4,65 @@ import 'dart:io' show Platform;
 import 'package:flutter/services.dart' show Clipboard, ClipboardData;
 
 import 'dua.dart';
+import 'bookmark_manager.dart';
+
+class _BookmarkDialog extends StatefulWidget {
+  final List<BookmarkFolder> folders;
+
+  const _BookmarkDialog({required this.folders});
+  @override
+  State<_BookmarkDialog> createState() => _BookmarkDialogState();
+}
+
+class _BookmarkDialogState extends State<_BookmarkDialog> {
+  BookmarkFolder? selected;
+
+  @override
+  Widget build(BuildContext context) {
+    selected ??= widget.folders.first; // preselect first if nothing selected
+    return AlertDialog(
+      title: const Text("Create Bookmark"),
+      content: Row(
+        children: [
+          const Text("Folder"),
+          const SizedBox(width: 8),
+          DropdownButton(
+            onChanged: (s) {
+              if (s != null) {
+                setState(() {
+                  selected = s;
+                });
+              }
+            },
+            value: selected,
+            items: widget.folders
+                .map(
+                  (f) => DropdownMenuItem(
+                    value: f,
+                    child: Text(f.displayName),
+                  ),
+                )
+                .toList(),
+          )
+        ],
+      ),
+      actions: [
+        TextButton(
+          child: const Text("Cancel"),
+          onPressed: () {
+            Navigator.of(context).pop("");
+          },
+        ),
+        TextButton(
+          child: const Text("Create"),
+          onPressed: () {
+            Navigator.of(context).pop(selected);
+          },
+        ),
+      ],
+    );
+  }
+}
 
 class _DuaBody extends StatelessWidget {
   final Dua _dua;
@@ -88,8 +147,11 @@ class _DuaHeader extends StatelessWidget {
 }
 
 class DuaWidget extends StatefulWidget {
+  /// The chapter containing this dua
+  final int categoryIndex;
   final Dua _dua;
-  DuaWidget(String duaText, {super.key}) : _dua = Dua.fromRaw(duaText);
+  DuaWidget(this.categoryIndex, String duaText, {super.key})
+      : _dua = Dua.fromRaw(duaText);
 
   @override
   State<DuaWidget> createState() => _DuaWidgetState();
@@ -117,27 +179,30 @@ class _DuaWidgetState extends State<DuaWidget> {
   }
 
   void _bookmarkDua() async {
-    await showDialog(
-        context: context,
-        builder: (ctx) {
-          // ignore: prefer_const_constructors
-          return AlertDialog(
-            title: const Text("Create Bookmark"),
-            content: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                const Text("Folder"),
-                DropdownButton(
-                  onChanged: (s) {},
-                  items: ["First", "Second", "Third"].map((s) {
-                    return DropdownMenuItem(value: s, child: Text(s));
-                  }).toList(),
-                )
-              ],
-            ),
-          );
-        });
+    final folders = await BookmarkManager.instance.getBookmarkFolders();
+    if (!mounted) return;
+
+    final selected = await showDialog<BookmarkFolder>(
+      context: context,
+      builder: (ctx) {
+        // ignore: prefer_const_constructors
+        return _BookmarkDialog(folders: folders);
+      },
+    );
+
+    if (selected == null || !mounted) return;
+
+    try {
+      BookmarkManager.instance
+          .bookmarkDua(selected, widget.categoryIndex, widget._dua.num!);
+    } catch (e) {
+      final m = ScaffoldMessenger.of(context);
+      m.clearSnackBars();
+      m.showSnackBar(SnackBar(
+        backgroundColor: Colors.red,
+        content: Text("Error: $e"),
+      ));
+    }
   }
 
   @override
