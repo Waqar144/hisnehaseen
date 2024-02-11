@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
           darkTheme: ThemeData(
             brightness: Brightness.dark,
             useMaterial3: true,
-            colorSchemeSeed: Colors.blue,
+            colorSchemeSeed: Colors.indigo.shade50,
           ),
           themeMode: Settings.instance.themeMode,
           debugShowCheckedModeBanner: false,
