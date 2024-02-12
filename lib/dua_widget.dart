@@ -158,6 +158,8 @@ class DuaWidget extends StatefulWidget {
   DuaWidget(this.categoryIndex, String duaText, {super.key})
       : _dua = Dua.fromRaw(duaText);
 
+  const DuaWidget.fromDua(this._dua, {super.key}) : categoryIndex = -1;
+
   @override
   State<DuaWidget> createState() => _DuaWidgetState();
 }

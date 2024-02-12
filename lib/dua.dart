@@ -9,6 +9,20 @@ class Dua {
     required this.refs,
   });
 
+  static int? duaNumberFromRaw(String raw) {
+    int s = raw.indexOf(':');
+    if (s > 10) {
+      print("Bad dua text? $raw");
+      return null;
+    }
+    if (s != -1) {
+      String num = raw.substring(0, s);
+      return int.tryParse(num);
+    } else {
+      return null;
+    }
+  }
+
   factory Dua.fromRaw(String raw) {
     List<String> lines = raw.split('\n');
 

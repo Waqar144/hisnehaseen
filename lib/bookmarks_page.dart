@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart' show rootBundle;
+
 import 'bookmark_manager.dart';
+import 'route_handler.dart';
+import 'dua.dart';
+import 'dua_widget.dart';
 
 class BookmarksPage extends StatefulWidget {
   const BookmarksPage({super.key});
@@ -84,8 +89,72 @@ class _BookmarksPageState extends State<BookmarksPage> {
           return Card(
             child: ListTile(
               title: Text(folders[idx].displayName),
-              trailing: Text("$idx"),
+              trailing: Text("${folders[idx].bookmarks.length}"),
+              onTap: () {
+                Navigator.of(context).pushNamed(
+                  Routes.openBookmarkFolder,
+                  arguments: folders[idx],
+                );
+              },
             ),
+          );
+        },
+      ),
+    );
+  }
+}
+
+class BookmarkFolderPage extends StatefulWidget {
+  final BookmarkFolder folder;
+
+  const BookmarkFolderPage({super.key, required this.folder});
+
+  @override
+  State<BookmarkFolderPage> createState() => _BookmarkFolderPageState();
+}
+
+class _BookmarkFolderPageState extends State<BookmarkFolderPage> {
+  Stream<List<Dua>> _loadFolderDuas() async* {
+    Map<int, String> categoryTextCache = {};
+    List<Dua> duas = [];
+    for (final book in widget.folder.bookmarks) {
+      String? text = categoryTextCache[book.categoryIndex];
+      text ??=
+          await rootBundle.loadString("assets/en/${book.categoryIndex}.txt");
+      final textLines = text.split('---').map((s) => s.trim()).toList();
+      for (final l in textLines) {
+        int? num = Dua.duaNumberFromRaw(l);
+        if (num != null && book.duaId == num) {
+          duas.add(Dua.fromRaw(l));
+          yield duas;
+        }
+      }
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.folder.displayName),
+        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        shadowColor: Theme.of(context).colorScheme.shadow,
+      ),
+      body: StreamBuilder(
+        stream: _loadFolderDuas(),
+        builder: (context, snapshot) {
+          if (!snapshot.hasData) {
+            return const Center(child: Text("Loading..."));
+          }
+
+          final data = snapshot.data!;
+
+          return ListView.builder(
+            key: const PageStorageKey<String>('mylisview'),
+            itemCount: data.length,
+            itemBuilder: (ctx, index) {
+              return DuaWidget.fromDua(data[index]);
+            },
           );
         },
       ),
