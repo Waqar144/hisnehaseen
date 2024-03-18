@@ -29,7 +29,7 @@ class _BookmarksPageState extends State<BookmarksPage> {
             TextButton(
               child: const Text("Cancel"),
               onPressed: () {
-                Navigator.of(context).pop("");
+                Navigator.of(context).pop(null);
               },
             ),
             TextButton(
@@ -51,6 +51,7 @@ class _BookmarksPageState extends State<BookmarksPage> {
       m.showSnackBar(const SnackBar(
         content: Text("No folder name provided"),
       ));
+      return;
     }
 
     try {
