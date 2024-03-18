@@ -43,7 +43,7 @@ class _BookmarksPageState extends State<BookmarksPage> {
       },
     );
 
-    if (!context.mounted || folder == null) return;
+    if (!mounted || folder == null) return;
 
     if (folder.isEmpty) {
       final m = ScaffoldMessenger.of(context);
