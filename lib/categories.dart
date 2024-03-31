@@ -24,4 +24,9 @@ const List<String> categories_en = [
   /* 21 */ 'When Darkness Of Night Spreads',
   /* 22 */ 'When Going to Sleep',
   /* 23 */ 'When He Sees a Dream',
+  /* 24 */ 'Nightmares And Sleeplessness',
+  /* 25 */ 'Waking Up Suddenly',
+  /* 26 */ 'When You Wake Up From Sleep',
+  /* 27 */ 'When One Gets Up For Tahajjud',
+  /* 28 */ 'When he Makes Wudu (Ablution)',
 ];
