@@ -40,7 +40,10 @@ class Dua {
 
     if (num != null && int.tryParse(num) != null) {
       lines.removeAt(0);
-      body.add(firstLine.substring(s + 1));
+      final l = firstLine.substring(s + 1).trim();
+      if (l.isNotEmpty) {
+        body.add(l);
+      }
     } else {
       num = null;
     }
