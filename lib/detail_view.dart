@@ -35,7 +35,12 @@ class _DetailsViewState extends State<DetailsView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(_categoryTitle()),
+        title: Text(
+          _categoryTitle(),
+          style: const TextStyle(
+            fontSize: 18,
+          ),
+        ),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         shadowColor: Theme.of(context).colorScheme.shadow,
       ),
