@@ -93,6 +93,7 @@ class _HomePageState extends State<HomePage> {
         leading: _isSearching
             ? CloseButton(onPressed: () {
                 setState(() {
+                  _filterText.value = "";
                   _isSearching = false;
                 });
               })
