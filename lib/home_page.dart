@@ -23,11 +23,17 @@ class _HomePageState extends State<HomePage> {
     BookmarkManager.instance.init();
   }
 
-  List<String> _filteredCategories() {
+  List<({int idx, String name})> _filteredCategories() {
     String filterText = _filterText.value.toLowerCase();
-    return categories_en
-        .where((cat) => cat.toLowerCase().contains(filterText))
+    return allCategories()
+        .indexed
+        .where((cat) => cat.$2.toLowerCase().contains(filterText))
+        .map((e) => (idx: e.$1, name: e.$2))
         .toList();
+  }
+
+  List<String> allCategories() {
+    return categories_en;
   }
 
   Widget _buildAppbarTitleWidget() {
@@ -103,10 +109,10 @@ class _HomePageState extends State<HomePage> {
             itemBuilder: (ctx, index) {
               return Card(
                 child: ListTile(
-                  title: Text(cateogries[index]),
+                  title: Text(cateogries[index].name),
                   onTap: () {
-                    Navigator.of(context)
-                        .pushNamed(Routes.showCategory, arguments: index);
+                    Navigator.of(context).pushNamed(Routes.showCategory,
+                        arguments: cateogries[index].idx);
                   },
                 ),
               );
