@@ -29,4 +29,6 @@ const List<String> categories_en = [
   /* 26 */ 'When You Wake Up From Sleep',
   /* 27 */ 'When One Gets Up For Tahajjud',
   /* 28 */ 'When he Makes Wudu (Ablution)',
+  /* 29 */ 'When Ablution Is Performed',
+  /* 30 */ 'The Tahajjud',
 ];

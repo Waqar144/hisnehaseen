@@ -41,6 +41,7 @@ class _DetailsViewState extends State<DetailsView> {
             fontSize: 18,
           ),
         ),
+        titleSpacing: 0,
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         shadowColor: Theme.of(context).colorScheme.shadow,
       ),
